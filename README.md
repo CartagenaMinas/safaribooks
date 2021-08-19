@@ -41,7 +41,7 @@ $ python3 safaribooks.py --cred "account_mail@mail.com:password01" XXXXXXXXXXXXX
 The ID is the digits that you find in the URL of the book description page:  
 `https://www.safaribooksonline.com/library/view/book-name/XXXXXXXXXXXXX/`  
 Like: `https://www.safaribooksonline.com/library/view/test-driven-development-with/9781491958698/`  
-  
+  python safaribooks.py --cred "account_mail@mail.com:password01" "9781492072935"
 #### Program options:
 ```shell
 $ python3 safaribooks.py --help
